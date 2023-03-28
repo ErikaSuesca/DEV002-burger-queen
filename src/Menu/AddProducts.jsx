@@ -56,7 +56,7 @@ const AddProducts = ({ dataProduct, addOrder, setAddOrder }) => {
                 <span className="cantidadProducto">{count}</span>
                 <img src={signoMas} alt='mas' className="signoMas" onClick={() => {
                     addToCart(dataProduct.id);
-                    setCount(count + 1)
+                    setCount(count + 1);
                 }}></img>
             </section>
         </>
